@@ -1,0 +1,8 @@
+.winnersList {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.winnerItem {
+  padding: 0.25rem 0;
+}

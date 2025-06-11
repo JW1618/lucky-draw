@@ -13,21 +13,24 @@ You'll need two separate terminal windows to run both the API and the UI.
 
 **1. Run the Backend API (`lucky-draw-api` folder)**
 ```bash
-cd api
+cd lucky-draw-api
 npm install
 npm run start:dev
 ```
 
 The backend will be running at `http://localhost:3000`.
 
-**2. Run the Frontend UI (`ui` folder)**
+**2. Run the Frontend UI (`lucky-draw-ui` folder)**
 
 In a new terminal:
 ```bash
-cd ui
+cd lucky-draw-ui
 npm install
 npm start
 ```
+
+The frontend will be running at `http://localhost:3001`.
+
 --- 
 ## Notes
 -   The backend used the standard NestJS Module, Controller, Services pattern to keep the code orgranized and easy to maintain.

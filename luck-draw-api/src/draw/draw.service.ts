@@ -18,6 +18,8 @@ export class DrawService {
   constructor() {
     // Short interval for demonstration purpose
     const drawInterval = 30 * 1000;
+    // Realistic interval
+    // const drawInterval = 7 * 24 * 60 * 60 * 1000;
     this.logger.log(
       `Draw scheduled to run every ${drawInterval / 1000} seconds.`,
     );
